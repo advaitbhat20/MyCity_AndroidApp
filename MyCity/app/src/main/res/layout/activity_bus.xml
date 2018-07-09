@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.advait.mycity.bus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/button10"
+                android:background="@drawable/image9" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#000022"
+                android:text="Buses"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="1 \nA: RC CHURCH:COLABA \nB: BANDRA BUS STATION"
+            android:background="#4444"/>
+
+         <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="2 LTD \nA: ELECTRIC HOUSE:COLABA \nB: SANATACRUZ DEPOT(W)"
+        android:background="#5522"/>
+
+          <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="4 LTD \nA: HUTATMA CHOWK \nB: OSHIWARA DEPOT"
+        android:background="#4444"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="5 \nA: MANTRALAYA \nB: KURLA BUS STATION(E)"
+        android:background="#5522"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="C 6 EXP \nA: MANTRALAYA \nB: CHEMBUR RAILWAY STN(E)"
+        android:background="#4444"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="7 LTD \nA: BACKBAY DEPOT \nB: VIKHROLI PARK SITE"
+        android:background="#5522"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="9 \nA: COLABA BUS STATION \nB: NADKARNI PARK:WADALA(E)"
+        android:background="#4444"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="11 \nA: NAVY NAGAR:COLABA \nB: BANDRA COLONY BUS STATION"
+        android:background="#5522"/>
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="left"
+              android:text="11 EXP \nA: NAVY NAGAR:COLABA \nB: SION CIRLCE"
+              android:background="#4444"/>
+
+          <Button
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="left"
+              android:text="21 LTD \nA: RC CHURCH:COLABA \nB: TROMBAY"
+              android:background="#5522"/>
+
+      </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000022"
+    tools:context="com.example.advait.mycity.MainActivity">
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="My City"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:text="Train"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/image1"
+        android:layout_below="@+id/Text1"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/view"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Bus"
+        android:textColor="#000000"
+        android:background="@drawable/image2"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/button2"
+        android:layout_below="@+id/Text1"
+        android:layout_toRightOf="@+id/view"
+        android:layout_toEndOf="@+id/view" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_toLeftOf="@+id/view"
+        android:layout_below="@+id/view1"
+        android:id="@+id/button5"
+        android:text="places"
+        android:gravity="left"
+        android:background="@drawable/image5"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@id/view"
+        android:layout_below="@id/view1"
+        android:background="@drawable/image6"
+        android:text="emergancy"
+        android:gravity="left"
+        android:id="@+id/button6"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/view3"
+        android:background="@drawable/image7"
+        android:id="@+id/button7"
+        android:text="maps"
+        android:gravity="left"
+        />
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/image8"
+        />
+
+
+    <View
+        android:layout_width="8dp"
+        android:layout_height="316dp"
+        android:layout_below="@id/Text1"
+        android:layout_centerInParent="true"
+        android:id="@+id/view" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@id/button1"
+        android:id="@+id/view1"/>
+   <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@id/button3"
+        android:id="@+id/view2"
+        />-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@id/button5"
+        android:id="@+id/view3"
+        />
+
+
+
+</RelativeLayout>

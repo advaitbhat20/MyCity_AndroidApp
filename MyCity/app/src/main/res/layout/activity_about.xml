@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.advait.mycity.about"
+    android:background="#000022">
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/image9"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MY CITY\n\nName:Advait Bhat \n\nBranch:IT\n\nRoll No:1514070 \n\nBatch:A2"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ffee"
+    tools:context="com.example.advait.mycity.login">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/image8"
+        android:id="@+id/button15"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Welcome!"
+        android:textSize="30dp"
+        android:id="@+id/text5"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/text6"
+        android:layout_below="@id/text5"
+        android:background="@drawable/image10"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text6"
+        android:layout_marginTop="50dp"
+        android:text="logout"
+        android:id="@+id/button13"
+        android:onClick="logout"/>
+</RelativeLayout>
